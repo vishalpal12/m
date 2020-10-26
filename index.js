@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
-const prefix = "?";
+const prefix = "m?";
 
 const fs = require('fs');
 client.commands = new Discord.Collection();
@@ -15,7 +15,7 @@ for(const file of commandFiles){
 
 client.once('ready', () => {
       console.log('Bot Is Online');
-    bot.user.setActivity('m!help', {type: "PLAYING"}).catch(console.error);
+    client.user.setActivity('m?help', {type: "PLAYING"}).catch(console.error);
 });
 
 
