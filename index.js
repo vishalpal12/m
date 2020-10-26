@@ -15,6 +15,7 @@ for(const file of commandFiles){
 
 client.once('ready', () => {
       console.log('Bot Is Online');
+    bot.user.setActivity('m!help', {type: "PLAYING"}).catch(console.error);
 });
 
 
