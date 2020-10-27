@@ -39,6 +39,9 @@ client.on('message', async message=>{
         else if(command === "help"){
             client.commands.get('help').execute(message, args);
         }
+        else if(command === "invite"){
+            client.commands.get('invite').execute(message, args);
+        }
 
         try {
             client.commands.get(command).run(client, message, args);
