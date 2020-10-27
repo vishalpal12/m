@@ -1,7 +1,7 @@
 const { Message } = require('discord.js');
 
 module.exports = {
-   name:'inivte',
+   name:'invite',
    description:"Invite ModBot To Another Server",
    execute(message, args){
        message.channel.send({
