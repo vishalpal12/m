@@ -52,4 +52,4 @@ client.on('message', async message=>{
     }
  });
 
-client.login("NzY5Nzk0Mzk0NDcxMDA2MjE4.X5UM5Q.Eb4-8DR4PaFdDmEJd-8NE-iYiC0");
+client.login("NzY5Nzk0Mzk0NDcxMDA2MjE4.X5UM5Q.kKWG3OtqAzrvDuLcsvGNsjAPHb4");
